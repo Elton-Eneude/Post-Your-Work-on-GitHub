@@ -12,7 +12,7 @@ WEEKDAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 
 
 LINE_LEN = 90
 
-# print long string with repeating char, used to separate the sections of output
+# print long string with repeating char, It used to separate the sections of output
 print_line = lambda char: print(char[0] * LINE_LEN)
 
 def print_processing_time(start_time):
